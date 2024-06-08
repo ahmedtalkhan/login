@@ -1,0 +1,87 @@
+<DOCTYPE html>
+  <html lang="en">
+    <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Login System</title>
+      <link rel="stylesheet" href="css/all.min.css" />
+      <link rel="stylesheet" href="css/bootstrap.min.css" />
+      <link rel="stylesheet" href="css/style-sheet.css" />
+    </head>
+    <body>
+      <div class="d-none" id="d-one">
+        <nav class="navbar navbar-expand-lg shadow">
+          <div class="container">
+            <a class="navbar-brand" href="#">Login System</a>
+
+            <button class="btn btn-outline-warning" type="submit" id="Logout">
+              Logout
+            </button>
+          </div>
+        </nav>
+        <div id="myrow"></div>
+      </div>
+      <div
+        class="w-75 m-auto text-center my-5 p-5 shadow-lg d-block"
+        id="d-two"
+      >
+        <h2 class="text-primary">Smart Login System</h2>
+        <input
+          type="text"
+          placeholder="Enter Your Name"
+          class="form-control my-3 d-none"
+          id="username"
+        />
+        <input
+          type="text"
+          placeholder="Enter Your Email"
+          class="form-control my-3 d-none"
+          id="usermail-signup"
+        />
+        <input
+          type="password"
+          placeholder="Enter Your Password"
+          class="form-control my-3 d-none"
+          id="password-signup"
+        />
+
+        <input
+          type="email"
+          placeholder="Enter Your Email"
+          class="form-control my-3 d-block"
+          id="Email"
+        />
+        <input
+          type="password"
+          placeholder="Enter Your Password"
+          class="form-control my-3 d-block"
+          id="userpassword"
+        />
+        <button
+          class="btn btn-outline-primary w-100 d-none"
+          type="submit"
+          id="btnFour"
+        >
+          Sign Up
+        </button>
+        <button
+          class="btn btn-outline-primary w-100 d-block"
+          type="submit"
+          id="btnOne"
+        >
+          Login
+        </button>
+        <h3 class="my-2 text-white h6 d-block" id="donthave">
+          You don’t have an account?
+          <a href="#" class="text-decoration-none" id="btnTwo">Sign up</a>
+        </h3>
+        <h3 class="d-none my-2 text-white h6" id="haveacc">
+          You have an account?
+          <a href="" class="text-decoration-none">Sign In </a>
+        </h3>
+      </div>
+      <script src="js/bootstrap.bundle.min.js"></script>
+      <script src="js/index.js"></script>
+    </body>
+  </html>
+</DOCTYPE>
